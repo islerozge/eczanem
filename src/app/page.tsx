@@ -43,36 +43,13 @@ export default function Home() {
                     <span className="text-indigo-600">Sağlık Sektöründe</span> Yeni Standart
                   </h1>
                   <p className="text-center text-lg text-gray-500 lg:text-left">
-                    Uzmanrandevum, doktorlar için randevu yönetimi, özelleştirilebilir web sitesi
-                    oluşturma ve AI destekli blog yazma özellikleri sunan bir platformdur. Hem
-                    doktorlar hem de hastalar için pratik çözümler sunar.
+                    Eczanem, kullanıcıların ilaçlarını kolayca sipariş edebileceği, reçetelerini
+                    yönetebileceği ve evlerine teslim alabilecekleri yenilikçi platformdur.
                   </p>
-                  <div className="flex flex-col items-center lg:flex-row">
-                    <div className="flex items-center">
-                      <img
-                        src="https://pagedone.io/asset/uploads/1694846673.png"
-                        alt="Rounded image"
-                        className="relative z-50 rounded-full border-2 border-solid border-indigo-50"
-                      />
-                      <img
-                        src="https://pagedone.io/asset/uploads/1694846691.png"
-                        alt="Rounded image"
-                        className="relative z-30 -ml-3 rounded-full border-2 border-solid border-indigo-50"
-                      />
-                      <img
-                        src="https://pagedone.io/asset/uploads/1694846704.png"
-                        alt="Rounded image"
-                        className="relative z-20 -ml-3 rounded-full border-2 border-solid border-indigo-50"
-                      />
-                    </div>
-                    <span className="mt-3 text-base font-medium text-gray-600 lg:ml-3">
-                      Bekleme listesine katıl
-                    </span>
-                  </div>
                 </div>
                 <div className="block w-full lg:col-span-6 xl:col-span-7">
                   <div className="w-full rounded-3xl sm:w-auto lg:w-[60.8125rem] xl:ml-16">
-                    <img src="/2.png" alt="Dashboard image" className="rounded-2xl" />
+                    <img src="/banner.png" alt="Dashboard image" className="rounded-2xl" />
                   </div>
                 </div>
               </div>
@@ -103,11 +80,10 @@ export default function Home() {
                 </svg>
               </div>
               <div className="p-4 md:p-6">
-                <h3 className="mb-2 text-lg font-semibold md:text-xl">Kolay Randevu Oluşturma</h3>
+                <h3 className="mb-2 text-lg font-semibold md:text-xl">Erişim Kolaylığı</h3>
                 <p className="text-gray-500">
-                  Kullanıcılar, doktorlarının uygun saatlerini kolayca görüntüleyip, birkaç tıklama
-                  ile randevularını oluşturabilirler. Bu özellik, zaman kaybetmeden hızlı bir
-                  şekilde randevu almayı sağlar.
+                  Uygulama, reçeteleri doğrudan müşterilerin kapısına teslim ederek fiziksel bir
+                  eczaneyi ziyaret etme ve sıra bekleme ihtiyacını ortadan kaldırır
                 </p>
               </div>
             </div>
@@ -131,11 +107,11 @@ export default function Home() {
                 </svg>
               </div>
               <div className="p-4 md:p-6">
-                <h3 className="mb-2 text-lg font-semibold md:text-xl">Esnek Randevu Yönetimi</h3>
+                <h3 className="mb-2 text-lg font-semibold md:text-xl">Fiyat Şeffaflığı</h3>
                 <p className="text-gray-500">
-                  Randevularınızı iptal etmek veya başka bir güne taşımak artık çok kolay. Bu
-                  özellik sayesinde, kullanıcılar ve doktorlar planlarını hızlıca
-                  güncelleyebilirler.
+                  Uygulama, satın almadan önce ilaç fiyatları hakkında net bilgiler sunarak
+                  müşterilerin beklenmedik maliyetlerden kaçınmasına yardımcı olur. Şirket ayrıca
+                  fiyatları daha da düşürmek için mevcut indirimleri otomatik olarak uygular
                 </p>
               </div>
             </div>
@@ -159,11 +135,11 @@ export default function Home() {
                 </svg>
               </div>
               <div className="p-4 md:p-6">
-                <h3 className="mb-2 text-lg font-semibold md:text-xl">Kullanıcı Dostu Arayüz</h3>
+                <h3 className="mb-2 text-lg font-semibold md:text-xl">Bütünleşik Ekosistem</h3>
                 <p className="text-gray-500">
-                  Basit ve modern tasarımı ile uygulamamız, her yaş grubundan kullanıcı için kolay
-                  kullanım sunar. Bu özellik, uygulamanın hızlı ve pratik bir şekilde kullanılmasını
-                  sağlar.
+                  Uygulama, reçetelerin verimli bir şekilde yönetilmesini sağlamak için doktorları,
+                  hastaları ve ilaç şirketlerini senkronize tutar. Bu, yeniden doldurmaların
+                  takibini yapmaya ve ilaçların her zaman stokta olmasını sağlamaya yardımcı olur
                 </p>
               </div>
             </div>
@@ -187,11 +163,11 @@ export default function Home() {
                 </svg>
               </div>
               <div className="p-4 md:p-6">
-                <h3 className="mb-2 text-lg font-semibold md:text-xl">Anlık Bildirimler</h3>
+                <h3 className="mb-2 text-lg font-semibold md:text-xl">Müşteri Kolaylığı</h3>
                 <p className="text-gray-500">
-                  Randevu onayları, iptaller ve hatırlatmalar için anlık bildirimler alarak hiçbir
-                  önemli gelişmeyi kaçırmazsınız. Bu özellik, kullanıcıların her zaman güncel
-                  kalmasını sağlar.
+                  Müşteriler, eczacılarla kısa mesajlar aracılığıyla iletişim kurabilir ve bunun
+                  müşterilerin ilaçları hakkında soru sorma olasılığını artırdığı kesin bir şekilde
+                  tahmin ediliyor
                 </p>
               </div>
             </div>
@@ -215,11 +191,14 @@ export default function Home() {
                 </svg>
               </div>
               <div className="p-4 md:p-6">
-                <h3 className="mb-2 text-lg font-semibold md:text-xl">Web Sitesi Yönetimi</h3>
+                <h3 className="mb-2 text-lg font-semibold md:text-xl">
+                  {' '}
+                  İlaç Bilgilendirmesi ve Yan Etkiler
+                </h3>
                 <p className="text-gray-500">
-                  Doktorlar, kendi profesyonel web sitelerini oluşturup, özelleştirebilir ve
-                  yönetebilirler. Bu özellik, doktorların dijital varlıklarını güçlendirmelerine
-                  yardımcı olur.
+                  Kullanıcıların ilaçlarla ilgili detaylı bilgi almasını sağlar ve yan etkiler
+                  hakkında bilgilendirir. Ayrıca, kullanıcılar doğrudan uygulama üzerinden
+                  eczacılara danışabilirler.
                 </p>
               </div>
             </div>
@@ -243,11 +222,11 @@ export default function Home() {
                 </svg>
               </div>
               <div className="p-4 md:p-6">
-                <h3 className="mb-2 text-lg font-semibold md:text-xl">AI Destekli Blog Yazma</h3>
+                <h3 className="mb-2 text-lg font-semibold md:text-xl">Gizlilik ve Güvenlik</h3>
                 <p className="text-gray-500">
-                  Doktorlar, uygulama içindeki blog yazıları için AI destekli içerik oluşturma
-                  araçlarını kullanabilirler. Bu özellik, zaman kazandırırken, yaratıcı ve
-                  bilgilendirici içerikler üretmeyi kolaylaştırır.
+                  Uygulama,kullanıcıların sağlık bilgilerini güvenli bir şekilde saklar ve ödeme
+                  yöntemleri ve veri şifreleme gibi önlemlerle kullanıcı bilgilerinin bilgilerinin
+                  korunmasını sağlar.
                 </p>
               </div>
             </div>
@@ -271,160 +250,11 @@ export default function Home() {
               <div className="grid grid-cols-1 gap-6 lg:grid-cols-1 lg:gap-8">
                 <div className="md:px-6">
                   {/* Card */}
-                  <div className="relative z-10 rounded-xl border bg-white p-4 dark:border-neutral-800 dark:bg-neutral-900 md:p-10">
-                    <h3 className="text-xl font-bold text-gray-800 dark:text-neutral-200">
-                      Uzman Profili
-                    </h3>
-                    <div className="text-sm text-gray-500 dark:text-neutral-500">
-                      Randevularını, websiteni yönet. Görünürlüğünü artır.
-                    </div>
-                    <div className="mt-5">
-                      <span className="text-6xl font-bold text-gray-800 dark:text-neutral-200">
-                        0
-                      </span>
-                      <span className="ms-3 text-gray-500 dark:text-neutral-500">₺ / aylık</span>
-                    </div>
-                    <div className="mt-5 grid gap-y-2 py-4 first:pt-0 last:pb-0 sm:grid-cols-2 sm:gap-x-6 sm:gap-y-0">
-                      {/* List */}
-                      <ul className="space-y-2 text-sm sm:text-base">
-                        <li className="flex gap-x-3">
-                          <span className="mt-0.5 flex size-5 items-center justify-center rounded-full bg-blue-50 text-blue-600 dark:bg-blue-800/30 dark:text-blue-500">
-                            <MdCheck className="size-3.5" />
-                          </span>
-                          <span className="text-gray-800 dark:text-neutral-200">
-                            Online randevu yönetimi
-                          </span>
-                        </li>
-                        <li className="flex gap-x-3">
-                          <span className="mt-0.5 flex size-5 items-center justify-center rounded-full bg-blue-50 text-blue-600 dark:bg-blue-800/30 dark:text-blue-500">
-                            <MdCheck className="size-3.5" />
-                          </span>
-                          <span className="text-gray-800 dark:text-neutral-200">
-                            Randevu hatırlatma
-                          </span>
-                        </li>
-                        <li className="flex gap-x-3">
-                          <span className="mt-0.5 flex size-5 items-center justify-center rounded-full bg-blue-50 text-blue-600 dark:bg-blue-800/30 dark:text-blue-500">
-                            <MdCheck className="size-3.5" />
-                          </span>
-                          <span className="text-gray-800 dark:text-neutral-200">
-                            Detaylı profil ile tanınırlılığını artır
-                          </span>
-                        </li>
-                        <li className="flex gap-x-3">
-                          <span className="mt-0.5 flex size-5 items-center justify-center rounded-full bg-blue-50 text-blue-600 dark:bg-blue-800/30 dark:text-blue-500">
-                            <MdCheck className="size-3.5" />
-                          </span>
-                          <span className="text-gray-800 dark:text-neutral-200">
-                            Tamamlanmayan randevu sayısını azalt
-                          </span>
-                        </li>
-                        <li className="flex gap-x-3">
-                          <span className="mt-0.5 flex size-5 items-center justify-center rounded-full bg-blue-50 text-blue-600 dark:bg-blue-800/30 dark:text-blue-500">
-                            <MdCheck className="size-3.5" />
-                          </span>
-                          <span className="text-gray-800 dark:text-neutral-200">
-                            Gerçek değerlendirmelerini gör
-                          </span>
-                        </li>
-                        <li className="flex gap-x-3">
-                          <span className="mt-0.5 flex size-5 items-center justify-center rounded-full bg-blue-50 text-blue-600 dark:bg-blue-800/30 dark:text-blue-500">
-                            <MdCheck className="size-3.5" />
-                          </span>
-                          <span className="text-gray-800 dark:text-neutral-200">
-                            Daha fazlası...
-                          </span>
-                        </li>
-                      </ul>
-                      {/* End List */}
-                      {/* List */}
-                      <ul className="space-y-2 text-sm sm:text-base">
-                        <li className="flex gap-x-3">
-                          <span className="mt-0.5 flex size-5 items-center justify-center rounded-full bg-blue-50 text-blue-600 dark:bg-blue-800/30 dark:text-blue-500">
-                            <LuLoader className="size-3.5" />
-                          </span>
-                          <span className="text-gray-800 dark:text-neutral-200">
-                            Profesyonel websitesi
-                          </span>
-                        </li>
-                        <li className="flex gap-x-3">
-                          <span className="mt-0.5 flex size-5 items-center justify-center rounded-full bg-blue-50 text-blue-600 dark:bg-blue-800/30 dark:text-blue-500">
-                            <LuLoader className="size-3.5" />
-                          </span>
-                          <span className="text-gray-800 dark:text-neutral-200">Video yükleme</span>
-                        </li>
-                        <li className="flex gap-x-3">
-                          <span className="mt-0.5 flex size-5 items-center justify-center rounded-full bg-blue-50 text-blue-600 dark:bg-blue-800/30 dark:text-blue-500">
-                            <LuLoader className="size-3.5" />
-                          </span>
-                          <span className="text-gray-800 dark:text-neutral-200">
-                            Blog sayfası. AI destekli içerik üretme uygulaması
-                          </span>
-                        </li>
-                        <li className="flex gap-x-3">
-                          <span className="mt-0.5 flex size-5 items-center justify-center rounded-full bg-blue-50 text-blue-600 dark:bg-blue-800/30 dark:text-blue-500">
-                            <LuLoader className="size-3.5" />
-                          </span>
-                          <span className="text-gray-800 dark:text-neutral-200">
-                            Daha fazlası...
-                          </span>
-                        </li>
-                      </ul>
-                      {/* End List */}
-                    </div>
-                    <div className="mt-5 grid grid-cols-2 gap-x-4 py-4 first:pt-0 last:pb-0">
-                      <div>
-                        <p className="text-sm text-gray-500 dark:text-neutral-500">
-                          Beta süreci tamamen ÜCRETSİZDİR.
-                        </p>
-                        <p className="text-sm text-gray-500 dark:text-neutral-500">
-                          Beta sürecine dahil olmanız için kart bilgileriniz gerekmez.
-                        </p>
-                      </div>
-                      <div className="flex justify-end">
-                        <button
-                          type="button"
-                          className="inline-flex hidden items-center gap-x-2 rounded-lg border border-gray-200 bg-white px-4 py-3 text-sm font-medium text-gray-800 shadow-sm hover:bg-gray-50 focus:bg-gray-50 focus:outline-none disabled:pointer-events-none disabled:opacity-50 dark:border-neutral-700 dark:bg-transparent dark:text-neutral-300 dark:hover:bg-neutral-800 dark:focus:bg-neutral-800"
-                        >
-                          Bekleme Listesine Gir
-                        </button>
-                      </div>
-                    </div>
-                  </div>
                   {/* End Card */}
                 </div>
               </div>
               {/* End Grid */}
               {/* SVG Element */}
-              <div className="absolute end-0 top-0 hidden translate-x-16 translate-y-16 md:block">
-                <svg
-                  className="h-auto w-16 text-orange-500"
-                  width={121}
-                  height={135}
-                  viewBox="0 0 121 135"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M5 16.4754C11.7688 27.4499 21.2452 57.3224 5 89.0164"
-                    stroke="currentColor"
-                    strokeWidth={10}
-                    strokeLinecap="round"
-                  />
-                  <path
-                    d="M33.6761 112.104C44.6984 98.1239 74.2618 57.6776 83.4821 5"
-                    stroke="currentColor"
-                    strokeWidth={10}
-                    strokeLinecap="round"
-                  />
-                  <path
-                    d="M50.5525 130C68.2064 127.495 110.731 117.541 116 78.0874"
-                    stroke="currentColor"
-                    strokeWidth={10}
-                    strokeLinecap="round"
-                  />
-                </svg>
-              </div>
               {/* End SVG Element */}
               {/* SVG Element */}
               <div className="absolute bottom-0 start-0 hidden -translate-x-16 translate-y-16 md:block">
@@ -485,15 +315,13 @@ export default function Home() {
                 </svg>
                 <div className="grow">
                   <h3 className="font-semibold text-gray-800 dark:text-neutral-200 md:text-lg">
-                    Uzmanrandevum nedir ?
+                    Eczanem nedir?
                   </h3>
                   <p className="mt-1 text-gray-500 dark:text-neutral-500">
-                    Uzmanrandevum, bir doktorun günlük, haftalık veya aylık çalışma saatlerini,
-                    mevcut randevularını ve müsaitlik durumlarını gösteren bir planlayıcıdır.
-                    Uzmanrandevum uygulaması aracılığıyla doktorlar kendi takvimlerini kolayca
-                    yönetebilir ve hastalar, doktorların uygun olduğu saat dilimlerine göre randevu
-                    alabilir. Bu takvim sayesinde hem doktorlar hem de hastalar, randevuların
-                    düzenli ve planlı bir şekilde ilerlemesini sağlar.
+                    Eczanem,ilaçların stok durumunu anlık olarak gösterir, fiyat sunar ve sağlık
+                    sunar ve sağlık hizmetlerine erişimi kolaylaştırarak zaman tasarrufu sağlar.
+                    tasarrufu sağlar. Kullanıcılar ayrıca, eczacılara danışabilir ve ilaç
+                    hatırlatmaları gibi ek hizmetlerden faydalanabilirler.
                   </p>
                 </div>
               </div>
